@@ -27,36 +27,97 @@
     <!-- =====star header part=== -->
     <!-- ===nav section==== -->
     <header class="bg-gradient-to-r from-[#FFF] to-[#EFEBE3]">
-        <nav class=" max-w-7xl mx-auto flex justify-around items-center pt-8">
+        <nav class="container mx-auto flex  justify-around items-center pt-8 ">
             <div>
                 <a class="flex gap-2 lg:flex-row flex-col" href=""><img src="c2-assets/logo-header.png" alt="">
 
                 </a>
 
             </div>
-            <ul class="flex gap-12 lg:flex-row flex-col">
+
+            <ul class=" hidden lg:flex gap-12">
                 <li><a href="">Product</a></li>
                 <li><a href="">Services</a></li>
                 <li><a href="">Contact us</a></li>
                 <li> <a href=""><i class="fa-solid fa-magnifying-glass"></i> </a></li>
                 <li> <a href=""><i class="fa-solid fa-cart-shopping"></i> </a></li>
             </ul>
-            <button class="px-7 py-2 border-solid border-2 border-[#179800] rounded-lg">Login</button>
-            <button class="bg-[#179800] px-7 py-2 rounded-lg">Register</button>
 
-
-        </nav>
-        <div class=" max-w-7xl mx-auto">
-            <div class="text-center">
-                <h1><span class="text-6xl font-semibold text-[#111]">Freshness</span> <span>You Can Count</span>
-                    <span>On, Prices You’ll Love!</span>
-                </h1>
-                <p>Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you
-                    covered every day!</p>
+            <div class="hidden lg:flex gap-2">
+                <button
+                    class="px-7 py-2 border-solid border-2 border-[#179800] rounded-lg  md:block hidden">Login</button>
+                <button class="bg-[#179800] px-7 py-2 rounded-lg sm:hidden lg:block">Register</button>
+            </div>
+            <div class="sm:block lg:hidden">
+                <i class="fa-solid fa-bars"></i>
             </div>
 
+        </nav>
+        <div class="container mx-auto flex flex-col justify-center items-center">
+            <div class="text-center mt-32">
+                <h1><span class="text-6xl font-semibold text-[#111] ">Freshness</span> <span
+                        class=" text-6xl font-semibold text-[#179800]">You
+                        Can <br> Count</span>
+                    <span class="text-6xl font-semibold text-[#111]">On, Prices You’ll Love!</span>
+                </h1>
+                <p class="mt-8 font-normal text-xl text-[#111]">Shop your daily essentials at unbeatable prices. From
+                    fresh produce
+                    to pantry
+                    <br>staples,
+                    we’ve got you
+                    covered every day!
+                </p>
+            </div>
+            <div class="text-center">
+                <img src="c2-assets/hero-vegetables.png" alt="">
+            </div>
         </div>
     </header>
+    <main>
+        <section class="bg-[#FFF] my-36">
+            <div>
+                <h3 class="text-[#179800] text-4xl">Services</h3>
+            </div>
+            <div class="flex">
+                <div class="bg-[#EFEBE3] pt-8 pl-32 pr-32 pb-11 flex items-center flex-col rounded-2xl">
+
+                    <img class="bg-white rounded-full p-6" src="c2-assets/service.png" alt="">
+                    <div class="text-center">
+                        <h3 class="mt-6 text-2xl font-bold mb-2">24/7 Services </h3>
+                        <p>The vegetable market <br> is witnessing a welcome respite as prices <br>have significantly
+                            dropped,
+                        </p>
+                    </div>
+                </div>
+                <div class="bg-[#EFEBE3] pt-8 pl-32 pr-32 pb-11 flex items-center flex-col rounded-2xl">
+
+                    <img class="bg-white rounded-full p-6" src="c2-assets/service.png" alt="">
+                    <div class="text-center">
+                        <h3 class="mt-6 text-2xl font-bold mb-2">24/7 Services </h3>
+                        <p>The vegetable market <br> is witnessing a welcome respite as prices <br>have
+                            significantly
+                            dropped,
+                        </p>
+                    </div>
+                </div>
+                <div class="bg-[#EFEBE3] pt-8 pl-32 pr-32 pb-11 flex items-center flex-col rounded-2xl">
+
+                    <img class="bg-white rounded-full p-6" src="c2-assets/service.png" alt="">
+                    <div class="text-center">
+                        <h3 class="mt-6 text-2xl font-bold mb-2">24/7 Services </h3>
+                        <p>The vegetable market <br> is witnessing a welcome respite as prices <br>have
+                            significantly
+                            dropped,
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            </div>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>
