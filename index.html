@@ -354,28 +354,31 @@
         </section>
 
     </main>
-    <footer>
-        <!-- =====start footer part==== -->
-        <div class="container mx-auto px-16 lg:px-28 mt-40">
-            <!-- -----top card section----- -->
-            <div class="relative bg-[#EFEBE3] flex justify-center items-center gap-32 lg:flex-row flex-col rounded-xl pt-24 pb-24
+    <!-- <footer>
+        <section>
+
+
+            <div class="container mx-auto px-16 lg:px-28 mt-40">
+
+                <div class="relative bg-[#EFEBE3] flex justify-center items-center gap-32 lg:flex-row flex-col rounded-xl pt-24 pb-24
                 pl-24 -mb-64 ml-36">
-                <img src="c2-assets/vegetable-busket.png" alt="">
-                <div>
-                    <h2 class="text-[#111] text-4xl font-semibold	mb-5">Get Grocery News!</h2>
-                    <p class="mb-9 text-[#111]">Exclusive training tips, ticks, product deals and more.</p>
-                    <form>
-                        <input class="py-4 pl-4 pr-72  rounded-xl" type="text" name="" id=""
-                            placeholder="Enter email....">
+                    <img src="c2-assets/vegetable-busket.png" alt="">
+                    <div>
+                        <h2 class="text-[#111] text-4xl font-semibold	mb-5">Get Grocery News!</h2>
+                        <p class="mb-9 text-[#111]">Exclusive training tips, ticks, product deals and more.</p>
+                        <form>
+                            <input class="py-4 pl-4 pr-72  rounded-xl" type="text" name="" id=""
+                                placeholder="Enter email....">
 
-                    </form>
-                    <button class="mt-9 bg-[#179800] text-white px-7 py-2 rounded-lg text-xl	">Subscribe</button>
+                        </form>
+                        <button class="mt-9 bg-[#179800] text-white px-7 py-2 rounded-lg text-xl	">Subscribe</button>
+                    </div>
+
+
                 </div>
-
-
             </div>
-        </div>
-        <!-- ========text part===== -->
+        </section>
+
         <div class=" bg-[#179800] flex items-start justify-around p-80 lg:flex-row flex-col ">
             <div>
                 <img src="c2-assets/Vector.svg" alt="">
@@ -394,7 +397,7 @@
                 </ul>
             </nav>
 
-            <!-- ======social part==== -->
+
             <div>
                 <small class="text-slate-50">Follow Us</small>
                 <a href=""><img class="mt-4" src="c2-assets/Group 9168.svg" alt=""></a>
@@ -403,7 +406,74 @@
 
         </div>
 
+    </footer> -->
+    <footer>
+        <section class="py-14 px-6 flex justify-center items-center relative z-10">
+            <div class="flex flex-col md:flex-row items-center bg-[#EFE6DA] rounded-2xl p-10 md:p-16 w-[90%] max-w-6xl">
+
+                <!--======= Grocery Basket Imag============-->
+                <div class="flex-shrink-0">
+                    <img src="c2-assets/vegetable-busket.png" alt="Grocery Basket"
+                        class="w-[80%] md:w-[442px] h-auto max-w-sm mx-auto md:mx-0">
+                </div>
+
+                <!--============ Subscribe section====== -->
+                <div class="mt-8 md:mt-0 md:ml-12 text-center md:text-left">
+                    <h2 class="text-2xl md:text-4xl font-bold text-green-700">Get Grocery News!</h2>
+                    <p class="text-gray-700 mt-3 text-base md:text-lg">
+                        Exclusive training tips, tricks, product deals and more.
+                    </p>
+
+                    <!-- =======Email Input & Subscribe Button ==========-->
+                    <div class="mt-6 flex flex-col md:flex-row items-center w-full max-w-md">
+                        <input type="email" placeholder="Enter email..."
+                            class="bg-white px-5 py-3 rounded-lg w-full md:w-80 text-gray-900 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-500">
+                        <button
+                            class="mt-4 md:mt-0 md:ml-4 bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700 transition">
+                            Subscribe
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Footer Section start -->
+        <div class="bg-green-600 pt-[370px] pb-[140px] px-[140px] text-white  -mt-[230px] ">
+            <div class="w-[90%] max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 text-center md:text-left">
+
+                <!--=======Left Column: Brand Info =====================-->
+                <div>
+                    <img src="c2-assets/logo-footer.png" alt="Nature's Platter Logo" class="mx-auto md:mx-0 w-28">
+                    <p class="text-sm mt-4">
+                        Discover a world of treats, toys, and essentials handpicked for your furry friends.
+                    </p>
+                </div>
+
+                <!--======  Navigation Links =======-->
+                <div class="flex flex-col space-y-3 text-lg">
+                    <a href="#" class="hover:underline">Product</a>
+                    <a href="#" class="hover:underline">Services</a>
+                    <a href="#" class="hover:underline">Contact us</a>
+                </div>
+
+                <!--===== Social Media Icons ======-->
+                <div class="flex flex-col">
+                    <p class="text-lg font-medium">Follow Us</p>
+                    <div class="mt-4 flex justify-center md:justify-start space-x-5">
+                        <a href="#" class="text-white hover:text-gray-300"><i
+                                class="fa-brands fa-facebook text-xl"></i></a>
+                        <a href="#" class="text-white hover:text-gray-300"><i
+                                class="fa-brands fa-instagram text-xl"></i></a>
+                        <a href="#" class="text-white hover:text-gray-300"><i
+                                class="fa-brands fa-linkedin text-xl"></i></a>
+                        <a href="#" class="text-white hover:text-gray-300"><i
+                                class="fa-brands fa-youtube text-xl"></i></a>
+                    </div>
+                </div>
+
+            </div>
     </footer>
+
 </body>
 
 </html>
